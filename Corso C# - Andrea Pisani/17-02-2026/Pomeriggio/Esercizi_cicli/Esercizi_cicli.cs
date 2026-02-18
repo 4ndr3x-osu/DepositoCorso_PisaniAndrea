@@ -52,5 +52,76 @@ class Program
                 trovato = true;
             }
         }
+
+
+
+        //-----ESERCIZIO 3
+        bool esecuzione = true;
+        string scelta;
+        float saldo = 0.0f;
+        float operazione;
+
+        while (esecuzione)
+        {
+            Console.WriteLine("[1] - Visualizza saldo \n[2] - Deposita denaro \n[3] - Preleva denaro \n[4] - Esci");
+            scelta = Console.ReadLine();
+
+            switch(scelta)
+            {
+                case "1":
+                    Console.WriteLine($"Saldo attuale: {saldo}");
+                    break;
+
+
+
+                case "2":
+                    Console.WriteLine("Inserire l'importo da depositare: ");
+                    operazione = float.Parse(Console.ReadLine());
+                    if(operazione < 0)
+                    {
+                        Console.WriteLine("Impossibile depositare una somma inferiore a 0.");
+                    }
+                    else
+                    {
+                        saldo += operazione;
+                        Console.WriteLine($"Deposito effettuato. Saldo attuale: {saldo}");
+                    }
+                    break;
+
+
+                    
+                case "3":
+                    Console.WriteLine("Inserire l'importo da prelevare: ");
+                    operazione = float.Parse(Console.ReadLine());
+
+                    if(operazione > saldo)
+                    {
+                        Console.WriteLine("Impossibile prelevare una somma maggiore del saldo.");
+                    }
+                    else if(operazione < 0.0f)
+                    {
+                        Console.WriteLine("Impossibile prelevare una somma inferiore a 0.");
+                    }
+                    else
+                    {
+                        saldo -= operazione;
+                        Console.WriteLine($"Prelievo eseguito. Saldo attuale: {saldo}");
+                    }
+                    break;
+
+
+
+                case "4":
+                    Console.WriteLine($"Arrivederci");
+                    esecuzione = false;
+                    break;
+
+
+
+                default:
+                    Console.WriteLine("Scelta non valida");
+                    break;
+            }
+        }
     }
 }
