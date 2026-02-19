@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\VSC\\Corso C# - Andrea Pisani\\16-02-2026\\Mattina\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\DepositoCorso_PisaniAndrea\\Corso C# - Andrea Pisani\\16-02-2026\\Mattina\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\User\\Documents\\VSC\\Corso C# - Andrea Pisani\\16-02-2026\\Mattina\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\DepositoCorso_PisaniAndrea\\Corso C# - Andrea Pisani\\16-02-2026\\Mattina\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\VSC\\Corso C# - Andrea Pisani\\16-02-2026\\Mattina\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\DepositoCorso_PisaniAndrea\\Corso C# - Andrea Pisani\\16-02-2026\\Mattina\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
